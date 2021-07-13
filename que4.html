@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questiion 3</title>
+    <script type="text/javascript">
+        let table = (v1, v2) => {
+            let res = [];
+            for (let i = 0; i < v2; i++) {
+                res[i] = v1 + ' x ' + i + ' = ' + v1 * i + '<br/>';
+            }
+            return res;
+        }
+    </script>
+</head>
+
+<body>
+    <script type="text/javascript">
+        let value1 = 27;
+        let value2 = 20;
+        let ans = 0;
+        ans = table(value1, value2);
+        document.write(ans);
+    </script>
+</body>
+
+</html>

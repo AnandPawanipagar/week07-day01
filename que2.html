@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 2</title>
+    <script type="text/javascript">
+        function addNumbers(numSet1, numSet2) {
+            let ans = [];
+            for (let i = 0; i < numSet1.length; i++) {
+                ans[i] = numSet1[i] + numSet2[i];
+            }
+            return ans;
+        }
+    </script>
+</head>
+
+<body>
+    <script type="text/javascript">
+        let arr1 = [1, 2, 3, 4];
+        let arr2 = [2, 3, 4, 5];
+        document.write(addNumbers(arr1, arr2));
+    </script>
+</body>
+
+</html>
